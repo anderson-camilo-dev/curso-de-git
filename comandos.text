@@ -1,0 +1,24 @@
+comandos
+
+
+criar repositorios:
+
+gh repo nome-da-branch --public --source=. --push
+
+--public/--private ( publico ou privado)
+--source=. (fala que o arquivo esta na pasta atual)
+
+ir para branch 
+git checkout nome-da-branch
+
+
+commit
+
+git add . (adicina na fila)
+git commit -m "mensagem nova" (mensagem do commit)
+git push (manda pro git)
+
+
+puxar mudanças de uma branch
+
+git merge nome-da-branch (ela puxa as mudanças dessa branch)
